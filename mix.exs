@@ -20,8 +20,8 @@ defmodule ElixirBaseTemplate.MixProject do
 
   defp deps do
     [
-      {:ex_doc, "~> 0.20", only: [:dev, :test]},
-      {:version_tasks, "~> 0.11", only: :dev}
+      {:ex_doc, "> 0.0.0", only: [:dev, :test]},
+      {:version_tasks, "> 0.0.0", only: :dev}
     ]
   end
 
